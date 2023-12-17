@@ -1,6 +1,6 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore, collection, addDoc, getDocs, updateDoc, deleteDoc, doc, DocumentData } from "firebase/firestore";
-import { getAuth, GoogleAuthProvider, GithubAuthProvider, signInWithPopup, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, onAuthStateChanged, UserCredential, linkWithCredential, User, AuthError, AuthCredential, fetchSignInMethodsForEmail } from 'firebase/auth';
+import { getAuth, GoogleAuthProvider, GithubAuthProvider, signInWithPopup, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, onAuthStateChanged, UserCredential, linkWithCredential, AuthError, AuthCredential, fetchSignInMethodsForEmail } from 'firebase/auth';
 
 interface FirebaseAuthError extends AuthError {
   credential?: AuthCredential;
